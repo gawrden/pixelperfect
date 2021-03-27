@@ -1,0 +1,692 @@
+[dohtml]
+<div class="crooked">
+   <div class="tab">
+      <input type="radio" id="tab-1" name="tab-group-1" checked>
+      <label title="profile" for="tab-1">I</label>
+      <div class="crooked-wrapper">
+         <div class="crooked-header">
+            <div class="crooked-bar"></div>
+            <h1>first last</h1>
+            <h2>one line of lyrics</h2>
+         </div>
+         <div class="crooked-hover">
+            <img src="https://via.placeholder.com/250x400">
+         </div>
+         <div class="crooked-personality">
+            <span> <b>sun</b> answer </span>
+            <span> <b>ascendent</b> answer </span>
+            <span><b>rising</b> answer</span>
+            <span><b>MBTI</b> answer</span>
+            <span><b>enneagram</b> answer </span>
+            <span><b>HOUSE</b> answer </span>
+            <span><b>HAND</b> answer</span>
+         </div>
+         <div class="crooked-links">
+            <a href="#"> LINKS TO </a>
+            <a href="#">WHATEVER</a>
+            <a href="#">HERE</a>
+         </div>
+         <div class="crooked-info">
+            <span> any additional facts about your character </span>
+         </div>
+      </div>
+   </div>
+   <div class="tab">
+      <input type="radio" id="tab-2" name="tab-group-1">
+      <label title="playlist" style="margin-top:40px;" for="tab-2">II</label>
+      <div class="crooked-wrapper crooked-music">
+         <div class="crooked-header">
+            <div class="crooked-bar"> </div>
+            <h1>PLAYLIST</h1>
+            <h2> one line of lyrics </h2>
+         </div>
+         <div class="music-wrapper">
+            <div class="crooked-song">
+               <div class="number">01</div>
+               <div class="song-wrap">
+                  <div class="song-link"><a href="#musiclink">SONG TITLE</a></div>
+                  <span class="artist">ARTIST</span>
+               </div>
+            </div>
+            <div class="crooked-song">
+               <div class="number">02</div>
+               <div class="song-wrap">
+                  <div class="song-link"><a href="#musiclink">SONG TITLE</a></div>
+                  <span class="artist">ARTIST</span>
+               </div>
+            </div>
+            <div class="crooked-song">
+               <div class="number">03</div>
+               <div class="song-wrap">
+                  <div class="song-link"><a href="#musiclink">SONG TITLE</a></div>
+                  <span class="artist">ARTIST</span>
+               </div>
+            </div>
+            <div class="crooked-song">
+               <div class="number">04</div>
+               <div class="song-wrap">
+                  <div class="song-link"><a href="#musiclink">SONG TITLE</a></div>
+                  <span class="artist">ARTIST</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="tab">
+      <input type="radio" id="tab-3" name="tab-group-1">
+      <label title="relationships" style="margin-top:80px;" for="tab-3">III</label>
+      <div class="crooked-wrapper">
+         <div class="relationship-wrapper">
+            <div class="relationship-header">
+               <div class="crooked-bar"></div>
+               <h1>RELATIONSHIPS</h1>
+               <img src="https://via.placeholder.com/100">
+               <h2>one line of lyrics</h2>
+               <h3> slightly longer line of lyrics, up to three lines total.
+               </h3>
+            </div>
+            <div class="relationship-container">
+               <div class="relationship">
+                  <b>NAME NAME</b> RELATIONSHIP TYPE
+                  <div class="r-bar"> <span class="th th-tree"></span> <span style="width: 80%;" class="fill"></span> </div>
+               </div>
+               <div class="relationship">
+                  <b>NAME NAME</b> RELATIONSHIP TYPE
+                  <div class="r-bar"> <span class="th th-tree"></span> <span style="width: 70%;" class="fill"></span> </div>
+               </div>
+               <div class="relationship">
+                  <b>NAME NAME</b> RELATIONSHIP TYPE
+                  <div class="r-bar"> <span class="th th-tree"></span> <span style="width: 20%;" class="fill"></span> </div>
+               </div>
+               <div class="relationship">
+                  <b>NAME NAME</b> RELATIONSHIP TYPE
+                  <div class="r-bar"> <span class="th th-tree"></span> <span style="width: 30%;" class="fill"></span> </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="tab">
+      <input type="radio" id="tab-4" name="tab-group-1">
+      <label title="timeline" style="margin-top:120px;" for="tab-4">IV</label>
+      <div class="crooked-wrapper">
+         <div class="timeline-header">
+            <div class="crooked-bar"></div>
+            <h1>
+               TIMELINE
+            </h1>
+         </div>
+         <div class="timeline-container">
+            <h1>DATE</h1>
+            <h2>WHATEVER</h2>
+            <ul>
+               <li><a href="#">thread name</a> participants</li>
+               <li><a href="#">thread name</a> participants<</li>
+            </ul>
+            <h1>DATE</h1>
+            <h2>WHATEVER</h2>
+            <ul>
+               <li><a href="#">thread name</a> participants</li>
+               <li><a href="#">thread name</a> participants<</li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</div>
+
+<style type="text/css">
+/* COLORS */
+
+.crooked {
+  --main: #544D8E;
+  --dark: #393D6E;
+  --accent: #AA97C3;
+}
+
+/* crooked */
+
+.crooked {
+  position: relative;
+  min-height: 810px;
+  /* This part sucks */
+  clear: both;
+  width: 530px;
+  margin: 0 auto;
+  border: 40px solid #fff;
+  font-family: poppins, sans-serif;
+  color: #333;
+}
+
+.tab {
+  float: left;
+}
+
+.tab label {
+  position: absolute;
+  right: 13px;
+  top: 15px;
+  z-index: 10;
+  font-size: 10px;
+  text-align: right;
+  width: 20px;
+  color: #aaa;
+  padding: 5px;
+  text-transform: lowercase;
+}
+
+.tab [type=radio] {
+  display: none;
+}
+
+.crooked-wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  background: white;
+  right: 0;
+  bottom: 0;
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 10px;
+  height: 795px;
+  display: none;
+}
+
+[type=radio]:checked~label {
+  z-index: 12;
+  color: #111;
+  font-weight: bold;
+}
+
+.tab label:hover {
+  color: var(--main);
+  font-weight: bold;
+}
+
+[type=radio]:checked~label~.crooked-wrapper {
+  z-index: 1;
+  display: block;
+}
+
+
+/* NOT TABS */
+
+.crooked-header {
+  border-bottom: 1px solid #ccc;
+  margin: -10px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: poppins, sans-serif;
+  background: #fefefe;
+  padding: 50px;
+  line-height: 28px;
+  padding-top: 60px;
+  height: 61px;
+  position: relative;
+}
+
+.crooked-header h1 {
+  font-weight: 300;
+  color: var(--main);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 38px;
+}
+
+.crooked-header h2 {
+  font-size: 11px;
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.crooked-hover {
+  width: 250px;
+  height: 400px;
+  background: #fcfcfc;
+  padding: 10px;
+  border: 1px solid #ddd;
+  float: left;
+}
+
+.crooked-personality {
+  border: 1px solid #ddd;
+  border-left: 0;
+  padding: 10px;
+  overflow: auto;
+  font-size: 12px;
+  height: 175px;
+}
+
+.crooked-personality span {
+  display: block;
+  text-transform: uppercase;
+  text-align: right;
+  margin-bottom: 7px;
+}
+
+.crooked-personality b {
+  float: left;
+  font-size: 10px;
+  position: relative;
+  top: 1px;
+}
+
+.crooked-links {
+  border: 1px solid #ddd;
+  border-left: 0;
+  border-top: 0;
+  overflow: auto;
+  padding: 12px;
+  text-align: justify;
+  font-size: 14px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 200px;
+  line-height: 1.5em;
+  display: flex;
+  overflow: auto;
+}
+
+.crooked-links a {
+  text-decoration: none;
+  font-size: 11px;
+  border: 1px dashed var(--main);
+  padding: 4px;
+  display: inline-block;
+  color: #333;
+  font-weight: 600;
+  flex: 1 1 auto;
+  text-align: center;
+  margin: 4px;
+}
+
+.crooked-info {
+  padding: 50px;
+  border: 1px solid #ddd;
+  border-top: 0;
+  font-size: 12px;
+  height: 100px;
+  overflow: auto;
+  clear: both;
+}
+
+.crooked-info::-webkit-scrollbar {
+  width: 9px;
+  background: #fff;
+  border: 3px solid #fff;
+}
+
+.crooked-info::-webkit-scrollbar-thumb {
+  background: var(--main);
+  border: 4px solid #fff;
+}
+
+.crooked-info span {
+  display: block;
+  text-align: justify;
+  border-left: 4px solid var(--main);
+  padding: 4px 0 4px 8px;
+  margin-bottom: 16px;
+}
+
+.relationship-wrapper {
+  padding: 40px;
+  background: #fcfcfc;
+  height: 715px;
+}
+
+.relationship-container {
+  border: 1px solid #ddd;
+  margin: -40px;
+  padding: 40px;
+  height: 541px;
+  overflow: auto;
+}
+
+.relationship-container::-webkit-scrollbar {
+  width: 7px;
+  background: #fcfcfc;
+}
+
+.relationship-container::-webkit-scrollbar-thumb {
+  background: var(--main);
+  border: 2px solid #fcfcfc;
+}
+
+.relationship-header h1 {
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #ddd;
+  margin: -25px;
+  margin-bottom: 20px;
+  padding: 10px;
+  margin-right: -20px;
+  text-align: center;
+}
+
+.relationship-header h2 {
+  margin: 0;
+  color: var(--main);
+  font-size: 22px;
+  font-weight: 300;
+  text-align: ;
+}
+
+.relationship-header h3 {
+  margin: 0;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: justify;
+  color: #555;
+  font-weight: 600;
+}
+
+.relationship {
+  font-size: 11px;
+  font-weight: 600;
+  color: #555;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.relationship-header {
+  border-bottom: 1px solid #ccc;
+  margin: -10px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: poppins, sans-serif;
+  background: #fefefe;
+  padding: 25px;
+  line-height: 28px;
+  height: 121px;
+  margin: -50px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  position: relative;
+  padding-right: 60px;
+}
+
+.relationship-header b {
+  font-size: 10px;
+  display: block;
+  color: #333;
+  letter-spacing: 2px;
+  margin-top: -2px;
+}
+
+.relationship-header img {
+  float: left;
+  border: 1px dashed #ccc;
+  padding: 5px;
+  height: 70px;
+  width: 70px;
+  margin-right: 20px;
+}
+
+.relationship b {
+  font-size: 14px;
+  color: #222;
+  position: relative;
+  top: 1px;
+}
+
+.r-bar {
+  border: 1px solid #222;
+  height: 12px;
+  font-size: 10px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-top: 2px;
+}
+
+.fill {
+  background: var(--main);
+  position: absolute;
+  height: 15px;
+  left: 0;
+  top: 0;
+}
+
+.r-bar .th {
+  position: relative;
+  z-index: 2;
+  color: #111;
+  top: 2px;
+  right: 5px;
+  font-size: 8px;
+  float: right;
+}
+
+.crooked-bar {
+  height: 171px;
+  position: absolute;
+  border-left: 1px dashed #ddd;
+  right: 40px;
+  top: 0;
+}
+
+
+/* MUSIC TAB */
+
+.crooked-music .crooked-header .th {
+  display: inline-block;
+  font-size: 40px;
+  color: var(--dark);
+  margin-right: 10px;
+  position: relative;
+  top: -10px;
+}
+
+.crooked-music .crooked-header {
+  padding: 55px;
+  height: 60px;
+  text-align: center;
+  padding-right: 80px;
+}
+
+.crooked-music .crooked-header h1 {
+  margin-top: 10px;
+  font-size: 45px;
+  margin-bottom: 5px;
+  display: inline-block;
+  color: #333;
+}
+
+.crooked-music h2 {
+  font-size: 12px;
+  letter-spacing: 0;
+}
+
+.crooked-music h2:before {
+  content: " ❝ ";
+  font-size: 14px;
+  color: var(--accent);
+  padding-right: 8px;
+  display: inline-block;
+}
+
+.crooked-music h2:after {
+  content: " ❞ ";
+  font-size: 14px;
+  color: var(--accent);
+  padding-left: 8px;
+  display: inline-block;
+}
+
+.crooked-song {
+  border-bottom: 1px solid #ddd;
+  height: 100px;
+}
+
+.number {
+  font-weight: 800;
+  font-size: 30px;
+  color: #aaa;
+  text-align: center;
+  border-right: 1px dashed #ccc;
+  float: left;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  margin-right: 40px;
+}
+
+.crooked-song:nth-child(even) {
+  background: #fff;
+}
+
+.crooked-song:nth-child(even) .number {
+  background: #fff;
+}
+
+.crooked-song a {
+  font-size: 24px;
+  color: var(--main);
+  text-decoration: none;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+
+.artist {
+  font-weight: bold;
+  font-size: 12px;
+  display: block;
+  color: #555;
+}
+
+.song-wrap {
+  padding: 32px;
+  line-height: 20px;
+}
+
+.music-wrapper {
+  margin: -10px;
+  overflow: auto;
+  height: 644px;
+}
+
+.music-wrapper::-webkit-scrollbar,
+.timeline-container::-webkit-scrollbar {
+  width: 7px;
+  background: #fcfcfc;
+}
+
+.music-wrapper::-webkit-scrollbar-thumb,
+.timeline-container::-webkit-scrollbar-thumb {
+  background: var(--main);
+  border: 2px solid #fcfcfc;
+}
+
+.timeline-container::-webkit-scrollbar-thumb {
+  background: #aaa;
+}
+
+
+/* TIMELINE */
+
+.timeline-header {
+  border-bottom: 1px solid #ddd;
+  margin: -10px;
+  line-height: 130px;
+  height: 130px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  background: #fff;
+  padding-right: 40px;
+}
+
+.timeline-header h1 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 45px;
+}
+
+.timeline-header .th {
+  position: absolute;
+  font-size: 40px;
+  top: 40px;
+  left: 112px;
+  color: var(--accent);
+}
+
+.timeline-container {
+  height: 632px;
+  background: #fcfcfc;
+  border: 1px solid #ddd;
+  border-top: 0;
+  font-size: 12px;
+  overflow: auto;
+  position: relative;
+  margin-top: 10px;
+}
+
+.timeline-container h1 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 25px;
+  background: #eee;
+  padding: 20px;
+  height: 38px;
+  line-height: 38px;
+  text-transform: lowercase;
+  position: sticky;
+  top: 0;
+}
+
+.timeline-container h2 {
+  margin: 0;
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin-left 15px;
+  color: #777;
+  padding-left: 20px;
+  padding-top: 10px;
+  text-transform: lowercase;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 10px;
+  pointer-events: none;
+}
+
+.timeline-container ul {
+  margin: 0;
+  padding: 20px;
+  list-style-type: square;
+  text-transform: lowercase;
+  list-style-position: inside;
+  padding-top: 6px;
+  line-height: 10px;
+  padding-left: 30px;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 0px;
+}
+
+.timeline-container li {
+  height: 21px;
+  margin-top: 5px;
+}
+
+.timeline-container a {
+  color: var(--main);
+  font-weight: bold;
+  font-size: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 4px;
+}
+
+.timeline-container a:hover {
+  color: #333;
+  font-size: 12px;
+}
+</style>
+
+[/dohtml]
