@@ -1,0 +1,104 @@
+[dohtml]
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;400i;600;800&display=swap" rel="stylesheet">
+
+<div id="default" class="stunky">
+  <div class="stunky-wrapper">
+    <div class="stunky-lyrics-wrapper">
+      <div class="stunky-lyrics">promises and they still feel so wasted</div>
+    </div>
+    <div class="stunky-post">   
+                <div class="stunky-tagged">
+        <a href="">FIRST LAST</a>
+      </div>
+      <b>Lorem ipsum dolor sit amet, </b> consectetur adipiscing elit. Donec nunc sem, accumsan non lacus efficitur, porta tristique ipsum. Curabitur convallis ultrices tellus in condimentum. In hac habitasse platea dictumst. Aenean sodales luctus venenatis. Integer vitae dignissim orci, ac porta justo. Quisque in magna aliquet turpis fringilla pretium eget vel turpis. Curabitur varius porta ex, a rutrum eros aliquam a. Proin venenatis velit hendrerit, accumsan sapien eu, mollis augue. Curabitur sollicitudin suscipit lectus vitae tempus. In euismod eleifend nisl, sed vulputate arcu pharetra ut. Nam tristique diam eget felis ullamcorper maximus. Sed eleifend id neque vel condimentum. In ac mauris sed orci tristique feugiat. Cras sodales feugiat purus, quis suscipit lectus venenatis quis. Praesent volutpat orci nec est ultrices bibendum. Nulla erat tellus, porta non varius at, ullamcorper ac felis.
+</div>
+  </div>
+</div>
+
+
+<style type="text/css">
+
+ #default {--accent: #f4635d; --accent2: #a1b0cb; --accent3: #fcd6d5; }
+ 
+ .stunky {
+   width: 500px;
+   margin: 0 auto;
+   background: linear-gradient(25deg, var(--accent2), var(--accent3));
+   position: relative;
+   box-shadow: 0 0 4px #aaa;
+   position: relative;
+   overflow: hidden;
+   border-radius: 4px;
+ }
+ 
+ .stunky-wrapper {
+   border-left: 110px solid #48464b;
+   padding: 20px; padding-left: 0;
+ }
+ 
+ .stunky-post {
+   background: #f5f5f5;
+   font-size: 12px; font-family: raleway, sans-serif;
+   text-align: justify;
+   color: #333;
+   padding: 30px;
+   line-height: 1.5em;
+   box-shadow: 0px 0px 8px rgba(0,0,0,.2);
+   border-radius: 0 5px 5px 0;
+ }
+ 
+.stunky-lyrics-wrapper {
+     position: absolute;
+   bottom: 10px;
+   left: 10px;
+   width: 70px;
+  background: rgba(0,0,0,.2);
+  padding: 10px;
+  border-radius: 4px;
+    margin: 0;
+}
+
+ .stunky-lyrics {
+     text-align: right;
+   font-size: 9px;
+   font-weight: bold;
+   font-family: 'Raleway', monospace;
+   text-transform: uppercase;
+   background: linear-gradient(to bottom, var(--accent2), var(--accent3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   letter-spacing: 1px;
+   line-height: 2em;
+ }
+
+.stunky-post b {
+  font-size: 14px;
+  color: var(--accent2);
+}
+ 
+.stunky-tagged {
+  padding: 4px;
+  font-size: 8px;
+  text-align: right;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  font-family: raleway, sans-serif;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  font-weight: 600;
+  opacity: .8;
+  margin-top: -20px; margin-right: -20px;
+}
+
+.stunky-tagged a {
+  color: #48464b;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+ 
+
+</style>
+
+[/dohtml]
